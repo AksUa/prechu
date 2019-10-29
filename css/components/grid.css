@@ -1,0 +1,30 @@
+.grid-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+.hero-content {
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 44.42px;
+    font-weight: 300;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.grid-item-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.grid-item-content {
+    margin-top: 40px;
+}
