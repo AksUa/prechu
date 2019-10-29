@@ -8,6 +8,7 @@
 .nav {
     height: 16px;
     word-spacing: 40px;
+    position: relative;
     
     
 }
@@ -21,4 +22,23 @@
     color: #6c6c6c;
     border-bottom: 3px solid #5094f2;
     padding-bottom: 17px;
+}
+.menu {
+    
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: purple;
+    right: 0;
+    top: -20px;
+    visibility: hidden;
+}
+@media (max-width: 640px){
+    .nav-item {
+        display: none;
+    }
+    .menu {
+        visibility: visible;
+    }
 }

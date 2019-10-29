@@ -1,7 +1,13 @@
 .button a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 25px;
      max-width: 190px;
     padding: 0;
@@ -17,7 +23,7 @@
     
 }
 .button-ok::before {
-    content: url(/image/button-ok.svg);
+    content: url(../../image/button-ok.svg);
     
     
 }
@@ -25,6 +31,8 @@
 .button a:hover {
     background-color: #97c1fc;
     color: #3082f5;
+    -webkit-transition: margin-left 4s, color 1s;
+    -o-transition: margin-left 4s, color 1s;
     transition: margin-left 4s, color 1s;
 }
 
@@ -53,8 +61,11 @@
     flex-basis: 33.33%;
 }
 .button-ok {
-    margin-right: 20px;
+     margin-right: 10px;
         height: 35px;
     width: 28px;
     
+}
+.button-hero {
+    margin-bottom: 15px;
 }
